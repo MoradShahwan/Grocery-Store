@@ -1,0 +1,56 @@
+body {
+    background-image: url('grocery.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    margin-top: 50px;
+}
+img {
+    max-width: 105px;
+    margin: auto;
+    display: block;
+}
+
+table {
+    margin: auto;
+    margin-top: 30px;
+}
+
+h2, h1 {
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 8px 12px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input:focus, select:focus {
+    border-color: #0d6efd; 
+    outline: none;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.25);
+}
+
+select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-chevron-down'><polyline points='6 9 12 15 18 9'></polyline></svg>");
+}
+
+.swal2-input {
+    margin: 10px auto !important;
+}
+
+#swal-category {
+    width: 270px;
+    height: 40px;
+}
